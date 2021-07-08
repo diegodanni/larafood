@@ -13,12 +13,12 @@
     </div>
     <div class="card-body">
 
-        <table style="width:100%">
+        <table class="table-condensed" style="width:100%">
        <thead>
         <tr>
             <th>Nome</th>
             <th>Preço</th>
-            <th>Ações</th>
+            <th style="width:50">Ações</th>
         </tr>
        </thead>
        <tbody>
@@ -40,8 +40,12 @@
     </tbody>
 
       </table>
-
     </div>
+
+        <div class="card-footer">
+            {!! $plans->links() !!}
+
+          </div>
 </div>
 @stop
 
