@@ -228,7 +228,8 @@ return [
         // Navbar items:
         [
             'url'         => 'admin/plans',
-            'text'         => 'Planos'
+            'text'         => 'Planos',
+            'icon'=> 'fas fa-list-alt'
         ]
     ],
 
