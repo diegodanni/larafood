@@ -230,6 +230,11 @@ return [
             'url'         => 'admin/plans',
             'text'         => 'Planos',
             'icon'=> 'fas fa-list-alt'
+        ],
+        [
+            'url'         => 'admin/profiles',
+            'text'         => 'Perfis',
+            'icon'=> 'fas fa-user'
         ]
     ],
 

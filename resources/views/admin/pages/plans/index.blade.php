@@ -44,7 +44,7 @@
             <td>
                 {{$plan->description}}
             </td>
-            <td style="width:160px;">
+            <td style="width:250px;">
                 <a href="{{ route('details.plan.index', $plan->url) }}" class="btn btn-primary">Detalhes</a>
                 <a href="{{ route('plans.edit', $plan->url) }}" class="btn btn-info"> EDITAR</a>
                 <a href="{{ route('plans.show', $plan->url) }}" class="btn btn-warning"><i class="fa fa-eye"></i>VER</a>
